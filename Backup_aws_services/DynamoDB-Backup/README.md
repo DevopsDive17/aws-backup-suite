@@ -12,10 +12,11 @@ To begin, ensure you have:
 ## **AWS Credentials Configuration**
 The script uses your AWS credentials to connect with DynamoDB. You can set your credentials using one of the following methods:
 
-### Method 1: AWS CLI Configuration
+### AWS CLI Configuration
 If you have the AWS CLI installed, you can configure your credentials with:
 ```bash
 aws configure
+    or
 export AWS_ACCESS_KEY_ID='your-access-key-id'
 export AWS_SECRET_ACCESS_KEY='your-secret-access-key'
 export AWS_DEFAULT_REGION='your-region'
